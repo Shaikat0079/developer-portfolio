@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+}
+
 .name-color {
     color: orangered;
 }
 
 section {
     display: flex;
+    margin-bottom: 125px;
 }
 
 .half-width {
@@ -41,4 +46,10 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
